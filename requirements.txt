@@ -1,0 +1,51 @@
+# =============================================================================
+# LangGraph HR Coaching Examples - Requirements
+# =============================================================================
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Or install minimal dependencies for basic examples:
+#   pip install langgraph langchain-openai langchain-core
+#
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Core LangGraph Dependencies (Required)
+# -----------------------------------------------------------------------------
+langgraph>=1.0.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# -----------------------------------------------------------------------------
+# UI Dependencies (Required for app.py)
+# -----------------------------------------------------------------------------
+streamlit>=1.28.0
+
+# -----------------------------------------------------------------------------
+# Database & Persistence (Required for examples 09, 19)
+# -----------------------------------------------------------------------------
+aiosqlite>=0.19.0
+
+# -----------------------------------------------------------------------------
+# Data Processing (Required for examples 23, 24)
+# -----------------------------------------------------------------------------
+pyyaml>=6.0
+
+# -----------------------------------------------------------------------------
+# Optional: Enhanced Features
+# -----------------------------------------------------------------------------
+# Uncomment the following for additional features:
+
+# For embeddings-based semantic memory search (example 26)
+# openai>=1.0.0
+
+# For graph visualisation
+# pygraphviz>=1.11
+# matplotlib>=3.7.0
+
+# For development and testing
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# ruff>=0.1.0
